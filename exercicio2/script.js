@@ -13,3 +13,19 @@ const filme = {
 }
 
 // respostas aqui ⬇️
+//a)
+const primeiroAtor = filme.elenco[0];
+console.log(primeiroAtor);
+
+// b)
+const tamanhoArrayElenco = filme.elenco.length;
+const ultimoAtor = filme.elenco[tamanhoArrayElenco-1]
+console.log(ultimoAtor);
+
+// c)
+const listaDeTransmissao = filme.transmissoesHoje;
+console.log(listaDeTransmissao);
+
+// d)
+const horarioTransmissaoCanalBrasil = filme.transmissoesHoje[1].horario;
+console.log(horarioTransmissaoCanalBrasil);
